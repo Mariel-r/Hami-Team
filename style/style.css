@@ -1,0 +1,11 @@
+@font-face {
+  font-family: PeydaWeb;
+  src: url("/font/woff2/PeydaWeb-Bold.woff2");
+  src: url("/font/woff2/PeydaWeb-Medium.woff2");
+}
+
+body {
+  font-family: PeydaWeb;
+  background-image: url(/icons/background.jpg);
+  
+}
