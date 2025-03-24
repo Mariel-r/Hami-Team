@@ -7,5 +7,228 @@
 body {
   font-family: PeydaWeb;
   background-image: url(/icons/background.jpg);
-  
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+}
+.call-logo,
+.phone-logo {
+  height: 17px;
+  width: 17px;
+  opacity: 0.5;
+  margin-right: 8px;
+}
+.spark-logo {
+  height: 20px;
+  width: 21px;
+  opacity: 0.5;
+}
+.telegram-logo,
+.eitaa-logo {
+  height: 44px;
+  width: 44px;
+  margin-bottom: -7px;
+  margin-top: 10px;
+}
+#hami-logo {
+  height: 48px;
+  width: 48px;
+  border-radius: 44px;
+  opacity: 1;
+  margin-left: 18px;
+}
+.box1 {
+  background-color: rgba(255, 251, 251, 0.9);
+
+  width: 330px;
+  height: 75px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#title {
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-bottom: -10px;
+}
+#msg {
+  font-size: 11.7px;
+  color: #747373;
+  margin-left: 10px;
+}
+#time {
+  font-size: 11px;
+  color: #949494;
+  margin-left: 10px;
+  margin-top: 27px;
+  margin-bottom: 3px;
+}
+#notif {
+  font-size: 11px;
+  color: #ebe9e9;
+  padding-left: 3px;
+  padding-top: 3px;
+}
+#notif-container {
+  background-color: #a1a1a1;
+  border-radius: 50px;
+  width: 13px;
+  height: 13px;
+  margin-left: 40px;
+  margin-bottom: 23px;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffbfb;
+  width: 330px;
+  height: 205px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.b2-r1 {
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 15px;
+  align-items: center;
+  margin-bottom: -4px;
+}
+.b2b {
+  font-family: PeydaWeb;
+  font-weight: bold;
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 33px;
+  width: 312px;
+  border-radius: 15px;
+  border: solid;
+  border-color: #d2d2d2;
+  background-color: #d2d2d2;
+  margin-block: 2px;
+}
+.no1 {
+  margin-right: 52px;
+  color: rgb(102, 102, 102);
+  margin-top: 15px;
+}
+.no2 {
+  margin-right: 153px;
+  color: rgb(102, 102, 102);
+  margin-top: 15px;
+}
+.no3 {
+  margin-right: 155px;
+  color: rgb(102, 102, 102);
+  margin-top: 15px;
+}
+.no4 {
+  margin-right: 132px;
+  color: rgb(102, 102, 102);
+  margin-top: 15px;
+}
+
+.box3 {
+  height: 93px;
+  width: 330px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#apps-title {
+  background-color: #fffbfb;
+  width: 129px;
+  height: 93px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+#apps-title-text {
+  font-weight: bold;
+  color: #131a46;
+  padding-left: 20px;
+}
+#eit-b,
+#tel-b {
+  font-family: PeydaWeb;
+  font-weight: bold;
+  width: 89px;
+  height: 93px;
+  background-color: #fffbfb;
+  border-radius: 15px;
+  border: solid;
+  border-color: #fffbfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.box4 {
+  background-color: rgba(255, 251, 251, 1);
+  border-radius: 15px;
+  width: 330px;
+  height: 240px;
+  margin-bottom: 10px;
+}
+
+.box5 {
+  width: 330px;
+  height: 44px;
+  background-color: rgba(255, 251, 251, 0.8);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.box6 {
+  width: 330px;
+  height: 44px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#direct-line {
+  height: 40px;
+  width: 160px;
+  background-color: #fffbfb;
+
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#dl-b {
+  height: 40px;
+  width: 160px;
+  background-color: #fffbfb;
+  color: #414040;
+  border-radius: 15px;
+  border: solid;
+  border-color: #fffbfb;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
