@@ -4,12 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hamireserve</title>
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
+    <style>
+      @font-face {
+        font-family: PeydaWeb;
+        src: url("./font/woff2/PeydaWeb-Bold.woff2");
+        src: url("./font/woff2/PeydaWeb-Medium.woff2");
+        src: url("./font/woff/PeydaWeb-Bold.woff");
+        src: url("./font/woff/PeydaWeb-Medium.woff");
+        src: url("./font/eot/PeydaWeb-Bold.eot");
+        src: url("./font/eot/PeydaWeb-Medium.eot");
+        src: url("./font/ttf/Peyda-Bold.ttf");
+        src: url("./font/ttf/Peyda-Medium.ttf");
+      }
+      body {
+        background-image: url("./icons/background.jpg");
+      }
+    </style>
   </head>
   <body>
     <div class="flexbox">
       <div class="box1">
-        <img id="hami-logo" src="icons/hamiteam.jpg" alt="hamiteam logo" />
+        <img id="hami-logo" src="./icons/hamiteam.jpg" alt="hamiteam logo" />
         <div>
           <p id="title">حامی،گروه تخصصی رزرو هتل</p>
           <p id="msg">کافیه تماس بگیری تا راهنماییت کنیم</p>
@@ -21,34 +37,34 @@
       </div>
       <div class="box2">
         <div class="b2-r1">
-          <img class="spark-logo" src="icons/spark.svg" alt="spark" />
+          <img class="spark-logo" src="./icons/spark.svg" alt="spark" />
           <p>شماره‌های ما (تماس،ایتا،تلگرام)</p>
-          <img class="spark-logo" src="icons/spark.svg" alt="spark" />
+          <img class="spark-logo" src="./icons/spark.svg" alt="spark" />
         </div>
         <div class="b2-r2">
           <button class="b2b">
-            <img class="phone-logo" src="icons/phone.svg" alt="phone" />
+            <img class="phone-logo" src="./icons/phone.svg" alt="phone" />
             <p class="no1"><a href="tel:05191690169">05191690169</a></p>
             <p>پاسخگویی از ساعت 9 صبح تا 9 شب</p>
           </button>
         </div>
         <div class="b2-r3">
           <button class="b2b">
-            <img class="call-logo" src="icons/call.svg" alt="call" />
+            <img class="call-logo" src="./icons/call.svg" alt="call" />
             <p class="no2"><a href="tel:+989353160169">09353160169</a></p>
             <p>آقای مددی</p>
           </button>
         </div>
         <div class="b2-r4">
           <button class="b2b">
-            <img class="call-logo" src="icons/call.svg" alt="call" />
+            <img class="call-logo" src="./icons/call.svg" alt="call" />
             <p class="no3"><a href="tel:+989351630169">09351630169</a></p>
             <p>خانم عربی</p>
           </button>
         </div>
         <div class="b2-r5">
           <button class="b2b">
-            <img class="call-logo" src="icons/call.svg" alt="call" />
+            <img class="call-logo" src="./icons/call.svg" alt="call" />
             <p class="no4"><a href="tel:+989150100898">09150100898</a></p>
             <p>ارتباط با مدیریت</p>
           </button>
@@ -61,7 +77,7 @@
             onclick="location.href='https://eitaa.com/s/HAMI_HOTEL'"
             type="button"
           >
-            <img class="eitaa-logo" src="icons/Eitaa-Logo.svg" alt="eitaa" />
+            <img class="eitaa-logo" src="./icons/Eitaa-Logo.svg" alt="eitaa" />
             <p>ایتا</p>
           </button>
         </div>
@@ -73,7 +89,7 @@
           >
             <img
               class="telegram-logo"
-              src="icons/Telegram-Logo.svg"
+              src="./icons/Telegram-Logo.svg"
               alt="telegram"
             />
             <p>تلگرام</p>
@@ -155,14 +171,14 @@
       </div>
 
       <div class="box5">
-        <img class="spark-logo" src="icons/spark.svg" alt="spark" />
+        <img class="spark-logo" src="./icons/spark.svg" alt="spark" />
         <p>برای اقامتی خوب، حامی_تیم</p>
-        <img class="spark-logo" src="icons/spark.svg" alt="spark" />
+        <img class="spark-logo" src="./icons/spark.svg" alt="spark" />
       </div>
       <div class="box6">
         <div class="b7-c1">
           <button id="dl-b">
-            <img class="phone-logo" src="icons/phone.svg" alt="phone" />
+            <img class="phone-logo" src="./icons/phone.svg" alt="phone" />
             <p><a href="tel:05191690169">05191690169</a></p>
           </button>
         </div>
@@ -173,6 +189,7 @@
         </div>
       </div>
     </div>
-    <script src="/style/script.js"></script>
+
+    <script src="./style/script.js"></script>
   </body>
 </html>

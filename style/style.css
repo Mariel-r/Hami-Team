@@ -12,14 +12,22 @@
 
 body {
   font-family: PeydaWeb;
-  background-image: url(/icons/background.jpg);
+  background-image: url("/icons/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
+@media (min-device-width: 320px) and (max-device-width: 768px) {
+  a {
+    color: #414040;
+    -webkit-appearance: none;
+  }
+}
+
 a {
   text-decoration: none;
-  color: #414040;
+  color: #414040 !important;
+  -webkit-appearance: none;
 }
 button:hover {
   opacity: 0.9;
@@ -67,6 +75,7 @@ button:hover {
   border-radius: 10px;
   display: flex;
   flex-direction: row;
+
   align-items: center;
   margin-bottom: 10px;
 }
@@ -169,16 +178,17 @@ button:hover {
 }
 #apps-title {
   background-color: #fffbfb;
+
   width: 129px;
   height: 93px;
   border-radius: 15px;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 #apps-title-text {
   font-weight: bold;
+  text-align: center;
   color: #131a46;
-  padding-left: 20px;
 }
 #eit-b,
 #tel-b {
