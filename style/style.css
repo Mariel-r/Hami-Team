@@ -107,7 +107,7 @@ button:hover {
 #time {
   font-size: 11px;
   color: #949494;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-top: 23px;
   margin-bottom: 3px;
 }
@@ -122,7 +122,7 @@ button:hover {
   border-radius: 50px;
   width: 13px;
   height: 13px;
-  margin-left: 40px;
+  margin-left: 33px;
   margin-bottom: 23px;
   margin-top: 2px;
   display: flex;
