@@ -2,6 +2,10 @@
   font-family: PeydaWeb;
   src: url("/font/woff2/PeydaWeb-Bold.woff2");
   src: url("/font/woff2/PeydaWeb-Medium.woff2");
+  src: url("/font/woff/PeydaWeb-Bold.woff");
+  src: url("/font/woff/PeydaWeb-Medium.woff");
+  src: url("/font/eot/PeydaWeb-Bold.eot");
+  src: url("/font/eot/PeydaWeb-Medium.eot");
 }
 
 body {
