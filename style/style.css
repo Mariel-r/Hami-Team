@@ -6,6 +6,8 @@
   src: url("/font/woff/PeydaWeb-Medium.woff");
   src: url("/font/eot/PeydaWeb-Bold.eot");
   src: url("/font/eot/PeydaWeb-Medium.eot");
+  src: url("/font/ttf/Peyda-Bold.ttf");
+  src: url("/font/ttf/Peyda-Medium.ttf");
 }
 
 body {
