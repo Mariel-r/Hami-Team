@@ -14,7 +14,8 @@ body {
   flex-direction: column;
 }
 .call-logo,
-.phone-logo {
+.phone-logo,
+.arrow-logo {
   height: 17px;
   width: 17px;
   opacity: 0.5;
@@ -179,8 +180,74 @@ body {
   background-color: rgba(255, 251, 251, 1);
   border-radius: 15px;
   width: 330px;
-  height: 240px;
+  height: auto;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#qs-title {
+  font-family: PeydaWeb;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: -8px;
+}
+.collapsible {
+  font-family: PeydaWeb;
+  font-weight: bold;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  height: 33px;
+  width: 312px;
+  border-radius: 15px;
+  border: solid;
+  border-color: #d2d2d2;
+  background-color: #d2d2d2;
+  margin-block: 2px;
+  margin-left: 13px;
+
+  cursor: pointer;
+  width: 92%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+.b5-r5 {
+  margin-bottom: 15px;
+}
+.active,
+.collapsible:hover {
+  background-color: rgb(183, 186, 204);
+}
+
+.collapsible:after {
+  content: "\002B";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  font-family: PeydaWeb;
+  text-align: right;
+  text-justify: inter-word;
+  direction: rtl;
+  font-size: 13px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
 }
 
 .box5 {
@@ -196,6 +263,7 @@ body {
   justify-content: center;
   margin-bottom: 10px;
 }
+
 .box6 {
   width: 330px;
   height: 44px;
